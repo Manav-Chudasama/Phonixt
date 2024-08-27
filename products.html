@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Phonixt</title>
+    <link rel="icon" href="./assets/images/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="products.css" />
+    <!-- <link rel="stylesheet" href="styles.css" /> -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+  </head>
+
+  <body>
+    <div id="cursor"></div>
+    <div id="main">
+      <section data-scroll-container data-scroll id="page1">
+        <nav>
+          <div class="logo" name="section" id="home-section">
+            <img
+              src="./assets/images/logo.png"
+              alt=""
+              width="250"
+              height="125"
+            />
+            <!-- Phonixt
+               <p>Quality with integrity</p> -->
+          </div>
+          <div class="nav-right">
+            <ul>
+              <li class="home-section" onclick="location.href='index.html';">
+                <a href="#">Home</a>
+              </li>
+              <li
+                class="about-section"
+                onclick="location.href='index.html#about-section';"
+              >
+                <a href="#">About us</a>
+              </li>
+              <li
+                class="services-section"
+                onclick="location.href='index.html#services-section';"
+              >
+                <a href="#">Services</a>
+              </li>
+              <li
+                class="products-section active"
+                onclick="window.scrollTo({top: '0', behavior: 'smooth'})"
+              >
+                <a href="#">Products</a>
+              </li>
+              <li><a href="#footer">Contact Us</a></li>
+              <a
+                style="text-decoration: none; color: black"
+                href="mailto:atcomcor@gmail.com"
+                ><li><i class="ri-mail-line"></i> atcomcor@gmail.com</li></a
+              >
+              <a
+                style="text-decoration: none; color: black"
+                href="https://wa.link/6nkwq6"
+                ><li><i class="ri-phone-fill"></i> +91-9820371207</li></a
+              >
+            </ul>
+            <ul class="links">
+              <a
+                style="text-decoration: none; color: black"
+                href="https://wa.link/6nkwq6"
+                ><li><i class="ri-whatsapp-line"></i></li
+              ></a>
+              <a
+                style="text-decoration: none; color: black"
+                href="https://www.instagram.com/atcom_corporation?igsh=NGExeW03Z2tmZWw="
+                ><li><i class="ri-instagram-line"></i></li
+              ></a>
+            </ul>
+          </div>
+          <div class="burger">
+            <div class="burger-icon open">
+              <i class="ri-menu-line"></i>
+            </div>
+          </div>
+        </nav>
+      </section>
+      <div class="burger-contents">
+        <div class="burger-top">
+          <h2>Phonixt</h2>
+          <button class="close"><i class="ri-close-line"></i></button>
+        </div>
+        <div class="burger-mid">
+          <nav>
+            <a
+              class="hover1"
+              onclick="location.href='index.html#page1';"
+              href="#"
+              >Home</a
+            >
+            <a
+              class="hover1"
+              onclick="location.href='index.html#services-section';"
+              href="#"
+              >Services</a
+            >
+            <a
+              class="hover1"
+              onclick="location.href='index.html#about-section';"
+              href="#"
+              >About us</a
+            >
+            <a class="hover1" href="#footer">Contact Us</a>
+            <a
+              class="hover1 bgmail"
+              style="text-decoration: none; color: black"
+              href="mailto:atcomcor@gmail.com"
+              ><i class="ri-mail-line"></i> atcomcor@gmail.com</a
+            >
+            <a
+              class="hover1 bgphone"
+              style="text-decoration: none; color: black"
+              href="https://wa.link/6nkwq6"
+              ><i class="ri-phone-fill"></i> +91-9820371207</a
+            >
+          </nav>
+        </div>
+        <div class="burger-btm">
+          <a
+            style="text-decoration: none; color: black"
+            href="https://wa.link/6nkwq6"
+          >
+            <i class="ri-whatsapp-line"></i>WhatsApp</a
+          >
+          <a
+            style="text-decoration: none; color: black"
+            href="https://www.instagram.com/atcom_corporation?igsh=NGExeW03Z2tmZWw="
+            ><i class="ri-instagram-line"> Instagram</i></a
+          >
+        </div>
+      </div>
+      <div class="scroll-to-top">
+        <i class="ri-arrow-up-line"></i>
+      </div>
+      <section class="prod">
+        <div class="container">
+          <div class="product">
+            <div class="product-card">
+              <h2 class="name">Globe Valves</h2>
+              <img
+                src="assets/images/product1.png"
+                class="product-img"
+                alt=""
+              />
+            </div>
+            <div class="popup-view">
+              <div class="popup-card">
+                <a><i class="ri-close-line close-btn"></i></a>
+                <img src="assets/images/slide5.png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="product">
+            <div class="product-card">
+              <h2 class="name">Gate Valves</h2>
+              <img
+                src="assets/images/product2.png"
+                class="product-img"
+                alt=""
+              />
+            </div>
+            <div class="popup-view">
+              <div class="popup-card">
+                <a><i class="ri-close-line close-btn"></i></a>
+                <img src="assets/images/slide6.png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="product">
+            <div class="product-card">
+              <h2 class="name">Ball Valves</h2>
+              <img
+                src="assets/images/product3.png"
+                class="product-img"
+                alt=""
+              />
+            </div>
+            <div class="popup-view">
+              <div class="popup-card">
+                <a><i class="ri-close-line close-btn"></i></a>
+                <img src="assets/images/slide8.png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="product">
+            <div class="product-card">
+              <h2 class="name">Safety Valves</h2>
+              <img
+                src="assets/images/product4.png"
+                class="product-img"
+                alt=""
+              />
+            </div>
+            <div class="popup-view">
+              <div class="popup-card">
+                <a><i class="ri-close-line close-btn"></i></a>
+                <img src="assets/images/slide7.png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="product">
+            <div class="product-card">
+              <h2 class="name">Y Strainer / Filters</h2>
+              <img
+                src="assets/images/product5.png"
+                class="product-img"
+                alt=""
+              />
+            </div>
+            <div class="popup-view">
+              <div class="popup-card">
+                <a><i class="ri-close-line close-btn"></i></a>
+                <img src="assets/images/Slide9 new.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="product">
+            <div class="product-card">
+              <h2 class="name">Butterfly Valves</h2>
+              <img
+                src="assets/images/product6.png"
+                class="product-img"
+                alt=""
+              />
+            </div>
+            <div class="popup-view">
+              <div class="popup-card">
+                <a><i class="ri-close-line close-btn"></i></a>
+                <img src="assets/images/slide10.png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="product">
+            <div class="product-card">
+              <h2 class="name">Wafer Type Check Valves</h2>
+              <img
+                src="assets/images/product7.png"
+                class="product-img"
+                alt=""
+              />
+            </div>
+            <div class="popup-view">
+              <div class="popup-card">
+                <a><i class="ri-close-line close-btn"></i></a>
+                <img src="assets/images/slide11 new.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="product">
+            <div class="product-card">
+              <h2 class="name">Non Return Valves</h2>
+              <img
+                src="assets/images/product8.png"
+                class="product-img"
+                alt=""
+              />
+            </div>
+            <div class="popup-view">
+              <div class="popup-card">
+                <a><i class="ri-close-line close-btn"></i></a>
+                <img src="assets/images/slide12.png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="product">
+            <div class="product-card">
+              <h2 class="name">Sight Glass</h2>
+              <img
+                src="assets/images/product9.png"
+                class="product-img"
+                alt=""
+              />
+            </div>
+            <div class="popup-view">
+              <div class="popup-card">
+                <a><i class="ri-close-line close-btn"></i></a>
+                <img src="assets/images/Slide13.png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="product">
+            <div class="product-card">
+              <h2 class="name">Flush Bottom Ball Valves</h2>
+              <img
+                src="assets/images/product10.png"
+                class="product-img"
+                alt=""
+              />
+            </div>
+            <div class="popup-view">
+              <div class="popup-card">
+                <a><i class="ri-close-line close-btn"></i></a>
+                <img src="assets/images/slide14.png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="product">
+            <div class="product-card">
+              <h2 class="name">Flush Y Type Valves</h2>
+              <img
+                src="assets/images/product11.png"
+                class="product-img"
+                alt=""
+              />
+            </div>
+            <div class="popup-view">
+              <div class="popup-card">
+                <a><i class="ri-close-line close-btn"></i></a>
+                <img src="assets/images/slide15.png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="product">
+            <div class="product-card">
+              <h2 class="name">P P Valves</h2>
+              <img
+                src="assets/images/product12.png"
+                class="product-img"
+                alt=""
+              />
+            </div>
+            <div class="popup-view">
+              <div class="popup-card">
+                <a><i class="ri-close-line close-btn"></i></a>
+                <img src="assets/images/slide16.png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="product">
+            <div class="product-card">
+              <h2 class="name">Steam Trap</h2>
+              <img
+                src="assets/images/product13.png"
+                class="product-img"
+                alt=""
+              />
+            </div>
+            <div class="popup-view">
+              <div class="popup-card">
+                <a><i class="ri-close-line close-btn"></i></a>
+                <img src="assets/images/slide17.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer data-scroll data-scroll-container id="footer">
+        <div class="contactus" id="contactus">
+          <div class="con-head">
+            <h1>FEEL FREE TO CONTACT US</h1>
+            <p>
+              Get Quotation With Best Price In The Market. Providing Best
+              Quality Valves With Best Customer Support
+            </p>
+          </div>
+          <!-- <div class="con-btn"><button>CONTACT US</button></div> -->
+        </div>
+        <div class="footer-top">
+          <div class="footer-top-1">
+            <div class="fleft">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1583.8452909076493!2d72.8537455755835!3d19.237080664987733!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b0d8ded38753%3A0xe1258f35bbb371bb!2sPREM%20NAGAR%20BUILDING%20NO.5%20CO-OPERATIVE%20HOUSING%20SOCIETY%20LIMITED.!5e0!3m2!1sen!2sin!4v1709476090603!5m2!1sen!2sin"
+                width="900"
+                height="300"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+            <div data-scroll data-scroll-container class="fright">
+              <div data-scroll-section class="fright-1">
+                <a
+                  href="./index.html#page1"
+                  data-scroll
+                  data-scroll-speed=".03"
+                  data-scroll-direction
+                  class="flinks"
+                  >Home</a
+                >
+                <a
+                  href="./index.html#services-section"
+                  data-scroll
+                  data-scroll-speed=".04"
+                  class="flinks"
+                  >Services</a
+                >
+                <a
+                  href="./index.html#about-section"
+                  data-scroll
+                  data-scroll-speed=".05"
+                  class="flinks"
+                  >About</a
+                >
+                <a
+                  href="./products.html"
+                  data-scroll
+                  data-scroll-speed=".06"
+                  class="flinks"
+                  >Products</a
+                >
+                <a
+                  href="#footer"
+                  data-scroll
+                  data-scroll-speed=".05"
+                  class="flinks"
+                  >Contact Us</a
+                >
+              </div>
+              <div class="fright-2">
+                <a
+                  data-scroll
+                  data-scroll-speed=".05"
+                  href="https://www.instagram.com/atcom_corporation?igsh=NGExeW03Z2tmZWw="
+                  class="flinks"
+                >
+                  <i class="ri-instagram-line"></i> Instagram
+                  <i class="ri-arrow-right-up-line"></i>
+                </a>
+                <a
+                  data-scroll
+                  data-scroll-speed=".06"
+                  href="https://wa.link/6nkwq6"
+                  class="flinks"
+                >
+                  <i class="ri-whatsapp-fill"></i> WhatsApp
+                  <i class="ri-arrow-right-up-line"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="footer-top-2">
+            <!-- <table
+                 style="width:70%; margin-left: 20%;border-collapse: separate; border-spacing: 2px 10px; border-color: transparent;">
+                 <tr>
+                    <th colspan="2" style="padding-right: 10%;"> REGISTERED OFFICE </th>
+                    <th align="left" style="padding-left: 10%;"> FACTORY DETAILS </th>
+                 </tr>
+                 <tr>
+                    <td> Address : </td>
+                    <td> A- 17, Prem Nager BLDG No.1, <br> OPP. MCF Garden, Borivali (W), <br>
+                       Mumbai-400092 </td>
+                    <td> 16, Ram Krishna Nagar, <br /> Rabari Colony, <br> Near CTM,
+                       Ahmedabad. </td>
+                    <td> UNIT NO.27, Phase I, Parmar Techno Centre, <br /> Pelhar, Off Western Express Highway, <br />
+                       Vasai (East), Palghar, MAHARASTRA. </td>
+                 </tr>
+                 <tr>
+                    <td rowspan="2"> Email : </td>
+                    <td><a href="atcomcor@gmail.com" style="color:#f8f6e1">atcomcor@gmail.com</a></td>
+                    <td rowspan="2">Contact Number : +91-9820371207</td>
+                 </tr>
+                 <tr>
+                    <td><a href="atcomcorporation@gmail.com" style="color:#f8f6e1">atcomcorporation@gmail.com</a></td>
+                 </tr>
+              </table> -->
+
+            <div class="addresses">
+              <div class="reg-add">
+                <h2 style="text-align: center">REGISTERED OFFICE</h2>
+                <div>
+                  <i class="ri-map-pin-2-line map-pin"></i>
+                  <p>
+                    A-17, Prem Nagar Bldg No 1, Opp MCF Garden, Borivali (W),
+                    Mumbai 400092
+                  </p>
+                </div>
+              </div>
+              <div class="fact-add">
+                <div class="fact-head">
+                  <h2>FACTORY ADDRESS</h2>
+                </div>
+                <div class="fact-addresses">
+                  <div class="mh">
+                    <h3>MAHARASTRA</h3>
+                    <div>
+                      <i class="ri-pin-distance-line distance-pin"></i>
+
+                      <p>
+                        Unit No 27, Phase I, Parmar Techno Centre, Pelhar, Off
+                        Western Express Highway, Vasai East, Palghar,
+                        Maharashtra
+                      </p>
+                    </div>
+                  </div>
+                  <div class="gj">
+                    <h3>GUJARAT</h3>
+
+                    <div>
+                      <i class="ri-pin-distance-line distance-pin"></i>
+                      <p>
+                        16, Ram Krishna Nagar, Rabari Colony, Near CTM,
+                        Ahemdabad
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="contacts">
+              <div>
+                <i class="ri-mail-line"></i>
+                <div class="emails">
+                  <a href="atcomcor@gmail.com" style="color: #f8f6e1"
+                    >atcomcor@gmail.com</a
+                  >
+                  <a href="atcomcor@gmail.com" style="color: #f8f6e1"
+                    >atcomcorporation@gmail.com</a
+                  >
+                </div>
+              </div>
+              <div class="fphno">
+                <i class="ri-phone-fill"></i>+91-9820371207
+              </div>
+            </div>
+          </div>
+        </div>
+        <div data-scroll data-scroll-section class="footer-btm">
+          <img src="assets/images/atcom_corporation_footer.png" />
+        </div>
+      </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@beta/bundled/locomotive-scroll.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+      integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+      integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="products.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
